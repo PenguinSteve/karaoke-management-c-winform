@@ -1,0 +1,7 @@
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\bin\Debug\DTO.dll.config
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\bin\Debug\DTO.dll
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\bin\Debug\DTO.pdb
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\obj\Debug\DTO.dll
+D:\TDTU\Year_2_Semester2\Công nghệ phần mềm\Final\KaraokeManagement\KaraokeManagementApp\DTO\obj\Debug\DTO.pdb

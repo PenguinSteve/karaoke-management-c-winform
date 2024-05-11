@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3AD1A3DE-49E7-493C-A2A6-AE43387B291A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fAccountInformationCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAccountInformationCustomer.Designer.cs">
+      <DependentUpon>fAccountInformationCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAccountInformationStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAccountInformationStaff.Designer.cs">
+      <DependentUpon>fAccountInformationStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAdvanceBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdvanceBooking.Designer.cs">
+      <DependentUpon>fAdvanceBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fAdvanceBookingStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdvanceBookingStaff.Designer.cs">
+      <DependentUpon>fAdvanceBookingStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBooking.Designer.cs">
+      <DependentUpon>fBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fCustomerManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCustomerManagement.Designer.cs">
+      <DependentUpon>fCustomerManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainMenuCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainMenuCustomer.Designer.cs">
+      <DependentUpon>fMainMenuCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLogin.Designer.cs">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainMenuReceptionists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainMenuReceptionists.Designer.cs">
+      <DependentUpon>fMainMenuReceptionists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fOrderService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fOrderService.Designer.cs">
+      <DependentUpon>fOrderService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRegister.Designer.cs">
+      <DependentUpon>fRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainMenuAdmin.Designer.cs">
+      <DependentUpon>fMainMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fMainMenuStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMainMenuStaff.Designer.cs">
+      <DependentUpon>fMainMenuStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fRoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRoomManagement.Designer.cs">
+      <DependentUpon>fRoomManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fServiceManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fServiceManagement.Designer.cs">
+      <DependentUpon>fServiceManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStaffManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStaffManagement.Designer.cs">
+      <DependentUpon>fStaffManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fStatistics.Designer.cs">
+      <DependentUpon>fStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTransaction.Designer.cs">
+      <DependentUpon>fTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fAccountInformationCustomer.resx">
+      <DependentUpon>fAccountInformationCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAccountInformationStaff.resx">
+      <DependentUpon>fAccountInformationStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdvanceBooking.resx">
+      <DependentUpon>fAdvanceBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fAdvanceBookingStaff.resx">
+      <DependentUpon>fAdvanceBookingStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBooking.resx">
+      <DependentUpon>fBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCustomerManagement.resx">
+      <DependentUpon>fCustomerManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLogin.resx">
+      <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainMenuCustomer.resx">
+      <DependentUpon>fMainMenuCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fOrderService.resx">
+      <DependentUpon>fOrderService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRegister.resx">
+      <DependentUpon>fRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainMenuAdmin.resx">
+      <DependentUpon>fMainMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainMenuReceptionists.resx">
+      <DependentUpon>fMainMenuReceptionists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMainMenuStaff.resx">
+      <DependentUpon>fMainMenuStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRoomManagement.resx">
+      <DependentUpon>fRoomManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fServiceManagement.resx">
+      <DependentUpon>fServiceManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStaffManagement.resx">
+      <DependentUpon>fStaffManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fStatistics.resx">
+      <DependentUpon>fStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTransaction.resx">
+      <DependentUpon>fTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{a00f366e-41f4-475e-9a30-614d5d2aef62}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{219cfbc8-a773-43cb-85c2-e0f3ff3c1c82}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
