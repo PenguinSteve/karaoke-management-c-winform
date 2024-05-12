@@ -31,6 +31,7 @@
             this.panelCustomerManagement = new System.Windows.Forms.Panel();
             this.panelCustomerInformation = new System.Windows.Forms.Panel();
             this.groupBoxCustomerInformation = new System.Windows.Forms.GroupBox();
+            this.btnSetDefaultPassword = new System.Windows.Forms.Button();
             this.btnReset2 = new System.Windows.Forms.Button();
             this.panelUsername = new System.Windows.Forms.Panel();
             this.underlineUsername = new System.Windows.Forms.Panel();
@@ -51,7 +52,6 @@
             this.panelCustomerList = new System.Windows.Forms.Panel();
             this.groupBoxCustomer = new System.Windows.Forms.GroupBox();
             this.dataGridViewCustomerList = new System.Windows.Forms.DataGridView();
-            this.btnSetDefaultPassword = new System.Windows.Forms.Button();
             this.panelCustomerManagement.SuspendLayout();
             this.panelCustomerInformation.SuspendLayout();
             this.groupBoxCustomerInformation.SuspendLayout();
@@ -102,6 +102,21 @@
             this.groupBoxCustomerInformation.TabIndex = 0;
             this.groupBoxCustomerInformation.TabStop = false;
             this.groupBoxCustomerInformation.Text = "Thông tin khách hàng";
+            // 
+            // btnSetDefaultPassword
+            // 
+            this.btnSetDefaultPassword.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
+            this.btnSetDefaultPassword.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnSetDefaultPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSetDefaultPassword.Location = new System.Drawing.Point(3, 498);
+            this.btnSetDefaultPassword.Name = "btnSetDefaultPassword";
+            this.btnSetDefaultPassword.Size = new System.Drawing.Size(402, 70);
+            this.btnSetDefaultPassword.TabIndex = 21;
+            this.btnSetDefaultPassword.TabStop = false;
+            this.btnSetDefaultPassword.Text = "Đặt lại mật khẩu";
+            this.btnSetDefaultPassword.UseVisualStyleBackColor = true;
+            this.btnSetDefaultPassword.Visible = false;
+            this.btnSetDefaultPassword.Click += new System.EventHandler(this.btnSetDefaultPassword_Click);
             // 
             // btnReset2
             // 
@@ -231,9 +246,9 @@
             this.lblCustomerName.AutoSize = true;
             this.lblCustomerName.Location = new System.Drawing.Point(3, 11);
             this.lblCustomerName.Name = "lblCustomerName";
-            this.lblCustomerName.Size = new System.Drawing.Size(185, 31);
+            this.lblCustomerName.Size = new System.Drawing.Size(208, 31);
             this.lblCustomerName.TabIndex = 0;
-            this.lblCustomerName.Text = "Tên nhân viên";
+            this.lblCustomerName.Text = "Tên khách hàng";
             // 
             // btnCreateCustomer
             // 
@@ -326,20 +341,6 @@
             this.dataGridViewCustomerList.Size = new System.Drawing.Size(882, 686);
             this.dataGridViewCustomerList.TabIndex = 0;
             this.dataGridViewCustomerList.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewStaffList_CellClick);
-            // 
-            // btnSetDefaultPassword
-            // 
-            this.btnSetDefaultPassword.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Silver;
-            this.btnSetDefaultPassword.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnSetDefaultPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSetDefaultPassword.Location = new System.Drawing.Point(3, 498);
-            this.btnSetDefaultPassword.Name = "btnSetDefaultPassword";
-            this.btnSetDefaultPassword.Size = new System.Drawing.Size(402, 70);
-            this.btnSetDefaultPassword.TabIndex = 21;
-            this.btnSetDefaultPassword.TabStop = false;
-            this.btnSetDefaultPassword.Text = "Đặt lại mật khẩu";
-            this.btnSetDefaultPassword.UseVisualStyleBackColor = true;
-            this.btnSetDefaultPassword.Click += new System.EventHandler(this.btnSetDefaultPassword_Click);
             // 
             // fCustomerManagement
             // 
